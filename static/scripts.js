@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const tr = document.createElement('tr');
 
                 tr.innerHTML = `
-                    <td>${projectCar.id:}</td>
+                    <td>${projectCar.id}</td>
                     <td>${projectCar.manufacturer}</td>
                     <td>${projectCar.model}</td>
                     <td>${projectCar.power_output}</td>
