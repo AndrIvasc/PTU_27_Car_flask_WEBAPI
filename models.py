@@ -15,7 +15,7 @@ class CarProject(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.datetime.now)
 
     @property
-    def kaina_su_pvm(self):
+    def priceVAT(self):
         return round(self.price * 1.21, 2)
 
     @property
